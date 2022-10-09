@@ -1,0 +1,107 @@
+ 
+ .navbar-collapse{
+  text-align: center;
+  margin-right: 20%;
+ }
+ 
+ /* Style all font awesome icons */
+ .fa {
+    padding: 17px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 4px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #ffcccc;
+    color: white;
+
+  }
+  
+  /* Instagram */
+  .fa-instagram {
+    background: #ffcccc;
+    color: white;
+  }
+  .footter{
+    background-color: #fbeaea;
+    margin-top: -16px;
+    
+  }
+
+  .imageCarousel{
+    border-radius: 5%;
+    width: 100%;
+    height: 350px;
+    
+  }
+
+  .infoText{
+    text-align: center;
+    margin-top: 15%;
+  }
+  .beeText{
+    text-align: center;
+    margin-top: 25%;
+  }
+  .infoImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    width: 100%;
+    height: 400px;
+    
+  }
+
+
+  .ajanVaraus{
+    background-color: #fbeaea;
+    border: none;
+    border-radius: 4%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+  .ajanVaraus:hover{
+    opacity: 0.7;
+
+  }
+  .buttonCenter{
+    text-align: center;
+  }
+
+  .card{
+    border-radius: 30px;
+    background-color: #fbeaea;
+    border: none;
+    height: 400px;
+    width: 280px;
+    text-align: center;
+  }
+  .card:hover{
+    background-color:#ffcccc
+  }
+  .cardDiv{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+  }
+  .cardRow{    
+    margin-left: 8%;
+    margin-right: 8%;
+  }
