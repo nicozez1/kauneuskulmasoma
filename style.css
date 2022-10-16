@@ -100,6 +100,9 @@
   .buttonCenter{
     text-align: center;
   }
+  .textCenter{
+    text-align: center;
+  }
 
   .hinnasto{
     
@@ -120,7 +123,7 @@
     text-align: center;
   }
   .card:hover{
-    background-color:#ffcccc
+    background-color:#ffcccc;
     
   }
   .cardDiv{
@@ -139,3 +142,32 @@
     height: 10%;
     opacity: 0.5;
   }
+
+  .cardPrice{
+    border-radius: 0px;
+    background-color: white;
+    border: none;
+    height: auto;
+    width: 55%;
+   margin: auto;
+  }
+  .cardPrice:hover{
+    background-color:#fff7f7;
+    
+    
+  }
+  .sokeroinnit{
+    list-style: none;
+    
+  }
+
+  .hintaTaulukko{
+    font-weight: bold;
+  }
+.hintaTextStart{
+  text-align:start;
+}
+
+.hintaTextEnd{
+  text-align: end;
+}
