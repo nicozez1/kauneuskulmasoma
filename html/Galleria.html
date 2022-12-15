@@ -12,193 +12,148 @@
 </head>
 <body>
         <!--Navbar start here-->
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid" >
-                
-                    <a class="navbar-brand" href="#" style="margin-left:23%;">
-                        <image src="./images/Logo1.jpg" style="width:200px;" class="rounded-pill"></image>
-                      </a>
-                
         
-              <button class="navbar-toggler" type="button" style="margin-left: 43%;" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+          <nav class="navbar bigImage navbar-expand-lg">
             
-              <div class="collapse navbar-collapse" id="collapsibleNavbar" style="margin-left: 20%;">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Hinnasto.html">Hinnasto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Galleria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Yhteystiedot</a>
-                  </li>
-                </ul>
-              </div>
             
+            <div class="col-lg-5 col-xl-5 col-12  services-section d-flex justify-content-lg-end justify-content-center">
+              <a class="navbar-brand"  href="../index.html">
+                <image src="../images/Logo1.jpg" style="width:200px;" class="rounded-pill "></image>
+              </a>
             </div>
+            
+            
+            <div class="col-12 col-lg-0 services-section navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                      <div class="d-flex justify-content-center">
+                        <span class="navbar-toggler-icon"></span>
+                      </div>
+            </div>
+      <div class="col-xl-1 col-lg-1"></div>
+      <div class="collapse navbar-collapse col-lg-4 col-xl-5 col-9" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/Hinnasto.html">Hinnasto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/Galleria.html">Galleria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/Yhteystiedot.html">Yhteystiedot</a>
+          </li>
+        </ul>
+      </div> 
+    
+             
+     
+    
         </nav> 
+      
+      
         <!--Navbar End here-->
 
 <div class="container ">
-  <div class="row">
-
-<div class="col-lg-6">
-<h3 class="infoText text-muted">Kauneuskulma Somassa voit rentoutua kiireettömässä ilmapiirissä. 
-  Yksilölliset ja ammattimaiset hoidot tarjoaa SKY-kosmetologi Anu Sillanpää.
-</h3>
-<div class="buttonCenter ">
-<button class="ajanVaraus mt-5 text-muted" href="https://varaa.timma.fi/kauneuskulmasoma">VARAA AIKASI TÄSTÄ</button>
-</div>
-</div>
-<!-- Carousel -->
-<div id="demo"class="carousel slide col-lg-6 mt-5" data-bs-ride="carousel">
-
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-  </div>
-
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner ">
-    <div class="carousel-item active">
-      <img src="./images/Testi1.jpg" alt="Los Angeles" class="img-fluid imageCarousel  d-block">
+  <div class="row mt-5">
+    <div class="col-xl-4">
+      <div class="img-comp-container rounded">
+        <div class="img-comp-img">
+          <img src="../images/comp1.jpg" width="300" height="200" />
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img src="../images/comp2.jpg" width="300" height="200" />
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="./images/Testi2.jpg" alt="Chicago" class="img-fluid imageCarousel  d-block">
+    <div class="col-xl-4">
+      <div class="img-comp-container rounded">
+        <div class="img-comp-img">
+          <img src="../images/comp1.jpg" width="300" height="200" />
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img src="../images/comp2.jpg" width="300" height="200" />
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="./images/Testi3.jpg" alt="New York" class="img-fluid imageCarousel  d-block">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/Testi4.jpg" alt="New York" class="img-fluid imageCarousel  d-block">
+    <div class="col-xl-4">
+      <div class="img-comp-container rounded">
+        <div class="img-comp-img">
+          <img src="../images/comp1.jpg" width="300" height="200" />
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img src="../images/comp2.jpg" width="300" height="200" />
+        </div>
+      </div>
     </div>
   </div>
-
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-</div>
-
-<!--Carousel End-->
-
-<div class="row mt-5 cardRow text-muted">
-  <div class="col-lg-3 col-sm-5 cardDiv mt-5 ">
-  <div class="card">
-    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Card image"></div>
-    <div class="card-block">
-      <h4 class="card-title mt-2">Kasvohoito Led- valolla</h4>
-      <p class="card-text mt-4">Led-valohoidolla voidaan hoitaa<br> esim. aknea, ihon tulehduksia, 
-        epätasaista ihonsävyä ja pigmenttiläiskiä.<br>
-        Led- valohoito auttaa soluja <br>toimimaan toivotun mukaisesti<br> ja vaikutus jatkuu vielä hoidon jälkeenkin.<br> 
-        Sis. Alkupuhdistus, naamio, led-valohoito 30min. ja loppuvoide. Suositellaan sarjahoitona 6-8krt.</p>
-    </div>
-  </div>
-</div>
-<div class="col-lg-3 col-sm-5 cardDiv mt-5 ">
-  <div class="card">
-    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Card image"></div>
-    <div class="card-block">
-      <h4 class="card-title mt-2">Hydra Dermabrasion puhdistava kasvohoito</h4>
-      <p class="card-text mt-4">Puhdistaa ja kuorii ihoa sekä<br> tyhjentää musta- ja valkopäitä ihohuokosista.<br>Se sopii kaikille ihotyypeille.
-         <br>Sis. Alkupuhdistus, Hydra Dermabrasion puhdistus,<br> naamio, niska-, hartia<br> ja päähieronta, seerumi<br> ja loppuvoide.</p>
-    </div>
-  </div>
-  </div>
-  <div class="col-lg-3 col-sm-5 cardDiv mt-5">
-  <div class="card">
-    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Card image"></div>
-    <div class="card-block">
-      <h4 class="card-title mt-2">Kiinteyttävä RF-kasvohoito</h4>
-      <p class="card-text mt-4">RF (radiofrekvenssi) parantaa<br> ihon kimmoisuutta, muotoilee leukalinjaa ja häivyttää ryppyjä.<br> Hoidon jälkeen iho näyttää nuoremmalta ja sileämmältä. 
-        Suositellaan sarjahoitoa 4-8krt,<br> 1-2 krt viikossa.<br> Sis. Alkupuhdistus, RF, naamio,<br> niska,- hartia- ja päähieronta,<br> seerumi ja loppuvoide.</p>
-    </div>
-  </div>
-</div>
-</div>
-<div class="row">
-  <button class="ajanVaraus mt-5 text-muted" href="./sites/palvelut.html">KAIKKI PALVELUMME</button>
-</div>
-
-<!--Infot-->
-<div class="row">
-  <div class="infoText text-muted mt-5 pt-5">
-    <h2>Hoitotuotteet</h2>
-    <h4>Kasvohoidoissa käytämme Wild Ferns luonnonkosmetiikkasarjaa,<br> jota hoitolamme myös jälleenmyy<br> ainoana Hämeenlinnan keskustassa.</h4>
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-4"></div>
-<div class="mt-5 col-lg-4">
-  <img src="./images/beeVenom.jpeg" alt="New York" class="img-fluid  infoImage d-block m">
-</div>
-<div class="col-lg-4"></div>
-</div>
 </div>
 
         <!--Footer Start here-->
       
-       <footer class="py-3 my-4 mt-5">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item">
-            <a class="nav-link px-2 text-muted" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-2 text-muted" href="#">Hinnasto</a>
-          </li>
-          <br>
-          <li class="nav-item">
-            <a class="nav-link px-2 text-muted" href="#">Galleria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-2 text-muted" href="#">Yhteystiedot</a>
-          </li>
-        </ul>
-        <div class="footter">
-        <ul class="nav justify-content-center ">
-          <li class="nav-item">
-            <h3 class="text-muted mt-3">Yhteystiedot</a>
-          </li>
-        </ul>
-        <ul class="nav justify-content-center ">
-          <li>
-            <p class="text-muted" style="text-align: center;">041 311 6313</p>
-            <p class="text-muted">kauneuskulmasoma@hotmail.com</p>
-          </li>
-        </ul>
-        <ul class="nav justify-content-center ">
-          <li>
-            <p class="text-muted" style="text-align: center;">Sibeliuksenkatu 4</p>
-            <p class="text-muted">13100 Hämeenlinna</p>
-          </li>
-
-        </ul>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a href="#" class="fa fa-facebook"></a>
-          </li>
-          <li>
-            <a href="#" class="fa fa-instagram"></a>
-          </li>
-        </ul>
-      </div>
-       </footer>
+  
+        <footer class="mt-5">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a class="nav-link px-2 text-muted" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2 text-muted" href="Hinnasto.html">Hinnasto</a>
+            </li>
+            <br>
+            <li class="nav-item">
+              <a class="nav-link px-2 text-muted" href="#">Galleria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2 text-muted" href="#">Yhteystiedot</a>
+            </li>
+          </ul>
+          <div class="footter">
+          <ul class="nav justify-content-center ">
+            <a class="navbar-brand"  href="#">
+              <image src="../images/Logo1.jpg" style="width:100px;" class="rounded-pill "></image>
+            </a>
+          </ul>
+          <ul class="nav justify-content-center ">
+            <li class="nav-item">
+              <h3 class="text-muted mt-3">Yhteystiedot</h3>
+            </li>
+          </ul>
+          <ul class="nav justify-content-center ">
+            <li>
+              <p class="text-muted" style="text-align: center;">041 311 6313</p>
+              <p class="text-muted">kauneuskulmasoma@hotmail.com</p>
+            </li>
+          </ul>
+          <ul class="nav justify-content-center ">
+            <li>
+              <p class="text-muted" style="text-align: center;">Sibeliuksenkatu 4</p>
+              <p class="text-muted">13100 Hämeenlinna</p>
+            </li>
+  
+          </ul>
+          <ul class="nav justify-content-center ">
+            <li>
+              
+              <h5 class="text-muted">Seuraa meitä</h5>
+            </li>
+          </ul>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/kauneuskulmasoma/" class="fa fa-facebook"></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/kauneuskulmasoma/" class="fa fa-instagram"></a>
+            </li>
+          </ul>
+        </div>
+         </footer>
 
       <!--Footer End here-->
-
+      <script src="../script/comparison.js"></script>
+      <script>
+        initComparisons();
+      </script>
 
 </body>
 </html>

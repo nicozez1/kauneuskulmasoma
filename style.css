@@ -50,6 +50,18 @@
     background: #ffcccc;
     color: white;
   }
+  .fa-envelope{
+    background: #ffcccc;
+    color: white;
+  }
+  .fa-phone{
+    background: #ffcccc;
+    color: white;
+  }
+  .fa-map-marker{
+    background: #ffcccc;
+    color: white;
+  }
   .footter{
     background-color: #fbeaea;
     margin-top: -16px;
@@ -163,6 +175,7 @@
 
   .hintaTaulukko{
     font-weight: bold;
+    
   }
 .hintaTextStart{
   text-align:start;
@@ -171,3 +184,79 @@
 .hintaTextEnd{
   text-align: end;
 }
+
+.yhteystiedotText{
+  color:#fdb2b2;
+  font-size:larger;
+
+}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+  overflow: hidden;
+  width: 300px;
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #ffcbf4;
+  opacity: 0.7;
+  border-radius: 50%;
+  
+}
+* {box-sizing: border-box;}
+
+ /*Mobiili*/
+
+ @media only screen and (max-width: 600px) {
+  .cardPrice{
+    
+    width: 100%;
+   
+  }
+  .mobileText{
+    text-align: left;
+  }
+  .yhteystiedotAlign{
+    margin: auto;
+  }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .cardPrice{
+    
+    width: 100%;
+   
+  }
+  .mobileText{
+    text-align: left;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cardPrice{
+
+    width: 55%;
+   
+  }
+} 
