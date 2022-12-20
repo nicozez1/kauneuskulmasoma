@@ -238,6 +238,9 @@
     margin: auto;
   }
 
+  .buttonCenter{
+    margin-left: 3%;
+  }
  
 
 }
@@ -253,6 +256,9 @@
   .mobileText{
     text-align: left;
   }
+}
+.buttonCenter{
+  margin-left: 1%;
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
