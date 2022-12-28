@@ -7,8 +7,6 @@
    background-repeat: no-repeat;
    background-size:cover;
    position: relative;
-
-  
 }
 
 .nav-link{
@@ -50,14 +48,17 @@
     background: #ffcccc;
     color: white;
   }
+  /* Sähköposti */
   .fa-envelope{
     background: #ffcccc;
     color: white;
   }
+    /* Puhelin */
   .fa-phone{
     background: #ffcccc;
     color: white;
   }
+  /* Osote */
   .fa-map-marker{
     background: #ffcccc;
     color: white;
@@ -130,7 +131,7 @@
     border-radius: 30px;
     background-color: #fbeaea;
     border: none;
-    height: 400px;
+    height: 300px;
     width: 280px;
     text-align: center;
   }
@@ -168,6 +169,7 @@
     
     
   }
+  
   .sokeroinnit{
     list-style: none;
     
@@ -186,9 +188,14 @@
 }
 
 .yhteystiedotText{
-  color:#fdb2b2;
+  color:#be8b8b;
   font-size:larger;
 
+}
+.infoButton{
+  background-color: transparent;
+  border-color: transparent;
+  font-size: larger;
 }
 
 .img-comp-container {
@@ -239,9 +246,14 @@
   }
 
   .buttonCenter{
-    margin-left: 3%;
+    padding-left: 3%;
   }
- 
+  .imageCarousel{
+    border-radius: 5%;
+    width: 100%;
+    height: 250px;
+    
+  }
 
 }
 

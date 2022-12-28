@@ -16,7 +16,6 @@
     <link rel = "icon" href =
 "./images/Logo_small.png"
     type = "image/x-icon">
-
 </head>
 <body>
         <!--Navbar start here-->
@@ -26,7 +25,7 @@
             
             <div class="col-lg-5 col-xl-5 col-12  services-section d-flex justify-content-lg-end justify-content-center buttonCenter">
               <a class="navbar-brand"  href="index.html">
-                <image src="./images/Logo1.jpg" style="width:200px;" class="rounded-pill "></image>
+                <image src="./images/Logo1.jpg" alt="Kauneuskulma soma logo" style="width:200px;" class="rounded-pill "></image>
               </a>
             </div>
             
@@ -53,10 +52,6 @@
           </li>
         </ul>
       </div> 
-    
-             
-     
-    
         </nav> 
       
       
@@ -69,19 +64,19 @@
 <h3 class="infoText text-muted">Kauneuskulma Somassa voit rentoutua kiireettömässä ilmapiirissä.
   Yksilölliset ja ammattimaiset hoidot tarjoaa<br> SKY-kosmetologi Anu Sillanpää.
 </h3>
-<div class="buttonCenter ">
+<div class="buttonCenter">
 <a class="ajanVaraus mt-5 text-muted" href="https://varaa.timma.fi/kauneuskulmasoma">VARAA AIKASI TÄSTÄ</a>
 </div>
 </div>
 <!-- Carousel -->
-<div id="demo"class="carousel carousel-dark slide col-lg-5 mt-5" data-bs-ride="carousel">
+<div id="carousel"class="carousel carousel-dark slide col-lg-5 mt-5" data-bs-ride="carousel">
 
   <!-- Indicators/dots -->
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
   </div>
 
   <!-- The slideshow/carousel -->
@@ -98,15 +93,15 @@
       <img src="./images/img2.jpg" alt="Kauneuskulma Soma aulan odotusalue" class="img-fluid imageCarousel  d-block">
     </div>
     <div class="carousel-item">
-      <img src="./images/img3.jpg" alt="Kauneuskulma Soma hoitoalue" class="img-fluid imageCarousel  d-block">
+      <img src="./images/img3.jpg" alt="Kauneuskulma Soma hoitoalueen sisustus" class="img-fluid imageCarousel  d-block">
     </div>
   </div>
 
   <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
@@ -117,33 +112,39 @@
 <div class="row mt-5  text-muted">
   <div class="col-lg-4 col-xl-4 col-12 d-flex justify-content-center mt-5 ">
   <div class="card">
-    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Card image"></div>
+    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Kauneuskulma soma kortin tausta"></div>
     <div class="card-block">
       <h4 class="card-title mt-2">Kasvohoito Led- valolla</h4>
       <p class="card-text mt-4">Led-valohoidolla voidaan hoitaa<br> esim. aknea, ihon tulehduksia, 
-        epätasaista ihonsävyä ja pigmenttiläiskiä.<br>
-        Led- valohoito auttaa soluja <br>toimimaan toivotun mukaisesti<br> ja vaikutus jatkuu vielä hoidon jälkeenkin.<br> 
-        Sis. Alkupuhdistus, naamio, led-valohoito 30min. ja loppuvoide. Suositellaan sarjahoitona 6-8krt.</p>
+        epätasaista ihonsävyä ja pigmenttiläiskiä.</p>
+    </div>
+    <div class="card-block">
+      <button class="btn  infoButton text-muted mt-5" type="button" onclick="openPage(1)" >Lue lisää ...</button>
     </div>
   </div>
 </div>
 <div class="col-lg-4 col-xl-4 col-12 d-flex justify-content-center mt-5 mt-5 ">
   <div class="card">
-    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Card image"></div>
+    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Kauneuskulma soma kortin tausta"></div>
     <div class="card-block">
       <h4 class="card-title mt-2">Hydra Dermabrasion puhdistava kasvohoito</h4>
-      <p class="card-text mt-4">Puhdistaa ja kuorii ihoa sekä<br> tyhjentää musta- ja valkopäitä ihohuokosista.<br>Se sopii kaikille ihotyypeille.
-         <br>Sis. Alkupuhdistus, Hydra Dermabrasion puhdistus,<br> naamio, niska-, hartia<br> ja päähieronta, seerumi<br> ja loppuvoide.</p>
+      <p class="card-text mt-4">Puhdistaa ja kuorii ihoa sekä<br> tyhjentää musta- ja valkopäitä ihohuokosista.<br>Se sopii kaikille ihotyypeille.</p>
+    </div>
+    <div class="card-block">
+      <button class="btn  text-muted infoButton mt-4" type="button" onclick="openPage(2)" >Lue lisää ...</button>
     </div>
   </div>
   </div>
   <div class="col-lg-4 col-xl-4 col-12 d-flex justify-content-center mt-5 mt-5">
   <div class="card">
-    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Card image"></div>
+    <div class="cardImage"><img class="card-img-top" src="./images/background.png" alt="Kauneuskulma soma kortin tausta"></div>
     <div class="card-block">
       <h4 class="card-title mt-2">Kiinteyttävä RF-kasvohoito</h4>
       <p class="card-text mt-4">RF (radiofrekvenssi) parantaa<br> ihon kimmoisuutta, muotoilee leukalinjaa ja häivyttää ryppyjä.<br> Hoidon jälkeen iho näyttää nuoremmalta ja sileämmältä. 
-        Suositellaan sarjahoitoa 4-8krt,<br> 1-2 krt viikossa.<br> Sis. Alkupuhdistus, RF, naamio,<br> niska,- hartia- ja päähieronta,<br> seerumi ja loppuvoide.</p>
+        </p>
+    </div>
+    <div class="card-block">
+      <button class="btn text-muted infoButton mt-1" type="button" onclick="openPage(3)" >Lue lisää ...</button>
     </div>
   </div>
 </div>
@@ -229,7 +230,16 @@
        </footer>
 
       <!--Footer End here-->
-
-
+       <script>
+        function setScroll(index){
+          localStorage.setItem('scrollValue', index);
+          console.log(localStorage.getItem('scrollValue'))
+        }
+        function openPage(index){
+          setScroll(index);
+          window.location.assign("./html/Hinnasto.html"); 
+        }
+    
+  </script>
 </body>
 </html>

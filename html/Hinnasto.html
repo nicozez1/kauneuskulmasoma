@@ -17,6 +17,7 @@
         type = "image/x-icon">
 </head>
 <body>
+
         <!--Navbar start here-->
         
           <nav class="navbar bigImage navbar-expand-lg">
@@ -24,7 +25,7 @@
             
             <div class="col-lg-5 col-xl-5 col-12  services-section d-flex justify-content-lg-end justify-content-center buttonCenter">
               <a class="navbar-brand"  href="../index.html">
-                <image src="../images/Logo1.jpg" style="width:200px;" class="rounded-pill "></image>
+                <image src="../images/Logo1.jpg" alt="Kauneuskulma soma logo" style="width:200px;" class="rounded-pill "></image>
               </a>
             </div>
             
@@ -219,7 +220,7 @@
       </div>
     </div>
     <div class="card cardPrice">
-      <div class="collapsed btn" data-bs-toggle="collapse" href="#collapse11">
+      <div class="collapsed btn" id="RFHoito" data-bs-toggle="collapse" href="#collapse11">
         <div class="row hintaTaulukko text-muted">
           <div class="col-lg-6 col-md-6 col-6 d-flex justify-content-start"><p class="mobileText"> Kiinteyttävä RF-kasvohoito</p></div> <div class="col-lg-6 col-md-6 col-6 d-flex justify-content-end"><p class="hintaTextEnd"> 72€</p></div>
           
@@ -234,7 +235,7 @@
     </div>
     </div>
     <div class="card cardPrice">
-      <div class="collapsed btn" data-bs-toggle="collapse" href="#collapse12">
+      <div class="collapsed btn" id="HydraPuhdistus" data-bs-toggle="collapse" href="#collapse12">
         <div class="row hintaTaulukko text-muted">
           <div class="col-lg-6 col-md-6 col-6 d-flex justify-content-start"><p class="mobileText">Hydra Dermabrasion puhdistava kasvohoito</p></div><div class="col-lg-6 col-md-6 col-6 d-flex justify-content-end"><p class="hintaTextEnd">99€</p></div>
         </div>
@@ -309,7 +310,7 @@
       </div>
     </div>
     <div class="card cardPrice">
-      <div class="collapsed btn" data-bs-toggle="collapse" href="#collapse15">
+      <div class="collapsed btn" id="LedValo" data-bs-toggle="collapse" href="#collapse15">
         <div class="row hintaTaulukko text-muted">
           <div class="col-lg-6 col-md-6 col-6 d-flex justify-content-start"><p class="mobileText">Kasvohoito Led- valolla</p></div><div class="col-lg-6 col-md-6 col-6 d-flex justify-content-end"><p class="hintaTextEnd">52€</p></div>
       </div>
@@ -607,7 +608,32 @@
        </footer>
 
       <!--Footer End here-->
-
+      <script>
+        function moveToPosition(){
+          const scrollValue = localStorage.getItem("scrollValue");
+          console.log(scrollValue)
+          if(scrollValue==1){
+            console.log("Hahaa")
+            window.scrollTo(0, 1300);
+            document.getElementById("LedValo").click();
+            localStorage.setItem("scrollValue", 0);
+          }
+          else if(scrollValue==2){
+            console.log("Hahaa2")
+            window.scrollTo(0, 1000);
+            document.getElementById("HydraPuhdistus").click();
+            localStorage.setItem("scrollValue", 0);
+          }
+          else if(scrollValue==3){
+            console.log("Hahaa3")
+            window.scrollTo(0, 1000);
+            document.getElementById("RFHoito").click();
+            localStorage.setItem("scrollValue", 0);
+          }
+          
+        }
+        moveToPosition();
+      </script>
 
 </body>
 </html>
