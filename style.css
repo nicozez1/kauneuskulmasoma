@@ -68,6 +68,11 @@
     margin-top: -16px;
     
   }
+  .imageLahja{
+    width: 100%;
+    height: 350px;
+    border-radius: 5%;
+  }
 
   .imageCarousel{
     border-radius: 5%;
